@@ -4,7 +4,7 @@ Attribute VB_Name = "Module1"
 Sub WorksheetCreateSummary()
     ' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
     ' variable declarations
-    Dim inPos As Integer, botPos As Integer
+    Dim inPos As Long, botPos As Long
     Dim volTotal As Double
     
     ' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
@@ -38,5 +38,4 @@ Sub WorksheetCreateSummary()
         inPos = 1 + inPos
     Wend
     
-
 End Sub
